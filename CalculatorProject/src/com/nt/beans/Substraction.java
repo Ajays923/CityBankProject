@@ -1,9 +1,12 @@
 package com.nt.beans;
 
+import com.nt.logics.Multiplication;
+
 public class Substraction {
 
 	public static void main(String[] args) {
-		System.out.println("Substraction Logic developed");
+		Multiplication ml = new Multiplication();	
+		ml.multiply(10, 5);
+		System.out.println("Mulitplication Logic developed by Developer2");
 	}
-
 }
