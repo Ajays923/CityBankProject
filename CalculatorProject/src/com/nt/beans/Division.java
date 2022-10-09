@@ -5,4 +5,7 @@ public class Division {
 			int result = a / b;
 			System.out.println("Division is:: "+result);
 		}
+		public void m2() {
+			System.out.println("m2");
+		}
 }
