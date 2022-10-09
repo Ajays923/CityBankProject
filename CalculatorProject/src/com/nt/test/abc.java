@@ -1,5 +1,9 @@
 package com.nt.test;
 
-public class abc {
+import java.util.Date;
 
+public class abc {
+		public Date getSysDate() {
+			return new Date();
+		}
 }
